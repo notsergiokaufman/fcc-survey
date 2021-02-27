@@ -1,0 +1,158 @@
+body {
+/* by Atle Mo (design), Lea Verou (code) */
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+
+.ultra {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.container {
+    background-color: #EEEEEE;
+    padding: 5vw;
+    margin: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(black,0.9);
+    border-radius: 0.5rem;
+    align-self: center;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+h1 {
+    color: rgba(black, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    cursor: default;
+    margin-bottom: 0.9rem;
+}
+
+#description {
+    margin-top: 0.5rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: default;
+}
+
+label {
+    color: rgba(black, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.forminput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.opt {
+    font-style: italic;
+    font-size: small;
+}
+
+input, button, select, textarea {
+    line-height: 1.65;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.formcontent {
+    border: 1px solid rgba(black, 0.9);
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-left: -2px;
+}
+
+/* by Chris Coyier */
+input.formcontent, textarea {
+    transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid #DDDDDD;
+  }
+   
+  input.formcontent:focus, textarea:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+  }
+
+  .pform {
+    color: rgba(black, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;    
+  }
+
+  input[type="radio"], input[type="checkbox"] {
+   margin-right: 0.5rem;
+  }
+
+  input[type="radio"] {
+   margin-bottom: .5rem;
+  }
+
+  #dropdown {
+   border: 1px solid rgba(black, 0.9);
+   font-size: 1rem;
+   background-color: white;
+   line-height: 1.65rem;
+   height: 1.65rem;
+   margin-left: 0px;
+   box-shadow: none;
+  }
+
+  .forminput.radioform {
+   margin-top: 1rem;
+   margin-bottom: 0.5rem;
+   background: transparent;
+  }
+
+  .selectf {
+   display: block;
+   margin-top: 0.5rem;
+  }
+
+  .selectform {
+   background: transparent;
+   margin-bottom: 1rem;
+  }
+
+ .textf {
+  display: block;
+   background: transparent;
+   margin-top: 0.5rem;
+  }
+
+  input[type="submit"] {
+   margin-top: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1rem;
+   background: #333333;
+   color: #EEEEEE;
+   border: 1px solid #000000;
+   border-radius: 5px;
+   padding: 5px 5px
+  }
+
+  input[type="submit"]:hover {
+   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+   border: 1px solid rgba(81, 203, 238, 1);
+  }
